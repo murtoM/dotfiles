@@ -6,6 +6,7 @@ My dotfiles, currently including config for:
 
 - awesomewm
 - fish
+- kitty terminal
 - mpv
 - ncspot
 - vim
