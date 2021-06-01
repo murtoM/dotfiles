@@ -4,9 +4,10 @@
 
 My dotfiles, currently including config for:
 
+- awesomewm
 - fish
 - mpv
-- awesomewm
+- ncspot
 - vim
 
 All licensed under MIT
