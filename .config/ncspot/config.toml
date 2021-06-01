@@ -1,0 +1,9 @@
+[theme]
+title = "#1ED760"
+playing = "black"
+playing_bg = "#1ED760"
+playing_selected = "#1ED760"
+highlight = "#1ED760"
+highlight_bg = "default"
+statusbar = "#1DB954"
+statusbar_progress = "#1DB954"
