@@ -44,3 +44,8 @@ noremap <C-j> 4j
 noremap <C-k> 4k
 noremap <C-h> 4h
 noremap <C-l> 4l
+
+" toggle relativenumber
+nmap <F2> :set rnu!<CR>
+" toggle line numbers
+nmap <F3> :set nu!<CR>
