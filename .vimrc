@@ -9,7 +9,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'nathanaelkane/vim-indent-guides'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -40,8 +39,8 @@ let g:ycm_confirm_extra_conf = 1
 let g:ycm_enable_diagnostic_highlighting = 0
 let g:ycm_max_diagnostics_to_display = 1000
 
+" faster motion with Ctrl+hjkl
 noremap <C-j> 4j
 noremap <C-k> 4k
 noremap <C-h> 4h
 noremap <C-l> 4l
-
