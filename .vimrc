@@ -26,10 +26,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set hlsearch
-set modeline
 set autoindent
 set encoding=utf-8
-set colorcolumn=80
+set colorcolumn=80,100
 highlight ColorColumn ctermbg=235
 set cursorline
 highlight CursorLine ctermbg=236 cterm=None
