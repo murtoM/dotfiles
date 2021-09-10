@@ -9,6 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'vim-scripts/java_getset.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -25,6 +26,7 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
+"set modeline
 set hlsearch
 set autoindent
 set encoding=utf-8
@@ -37,6 +39,21 @@ highlight CursorLine ctermbg=236 cterm=None
 let g:ycm_confirm_extra_conf = 1
 let g:ycm_enable_diagnostic_highlighting = 0
 let g:ycm_max_diagnostics_to_display = 1000
+
+" java_getset
+let b:javagetset_getterTemplate =
+          \ "\n" .
+          \ "%modifiers% %type% %funcname%() {\n" .
+          \ "  return %varname%;\n" .
+          \ "}"
+let b:javagetset_setterTemplate =
+          \ "\n" .
+          \ "%modifiers% void %funcname%(%type% %varname%) {\n" .
+          \ "  this.%varname% = %varname%;\n" .
+          \ "}"
+
+" two char indentation for java
+autocmd FileType java setlocal shiftwidth=2 tabstop=2
 
 " faster motion with Ctrl+hjkl
 noremap <C-j> 4j
