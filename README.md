@@ -11,5 +11,6 @@ My dotfiles, currently including config for:
 - ncspot
 - vim
 - powerline-shell segments
+- firefox userChrome.css
 
 All licensed under MIT
