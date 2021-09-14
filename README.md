@@ -10,5 +10,6 @@ My dotfiles, currently including config for:
 - mpv
 - ncspot
 - vim
+- powerline-shell segments
 
 All licensed under MIT
