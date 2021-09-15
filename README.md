@@ -12,5 +12,6 @@ My dotfiles, currently including config for:
 - vim
 - powerline-shell segments
 - firefox userChrome.css
+- picom
 
 All licensed under MIT
