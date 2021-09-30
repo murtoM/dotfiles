@@ -52,8 +52,9 @@ let b:javagetset_setterTemplate =
           \ "  this.%varname% = %varname%;\n" .
           \ "}"
 
-" two char indentation for java
+" two char indentation for java and js
 autocmd FileType java setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 
 " faster motion with Ctrl+hjkl
 noremap <C-j> 4j
