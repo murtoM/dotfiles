@@ -603,10 +603,11 @@ end)
 autorun = true
 autorunApps = 
 {
-  "feh --bg-fill /home/markus/Nextcloud/Pictures/change_desktop.png",
+  "autorandr default",
   "davmail",
   "nextcloud",
   "picom",
+  "feh --bg-fill /home/markus/Nextcloud/Pictures/change_desktop.png",
 }
 if autorun then
   for app = 1, #autorunApps do
