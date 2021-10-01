@@ -257,15 +257,15 @@ globalkeys = awful.util.table.join(
 	-- Volume control
 	awful.key({ }, "XF86AudioRaiseVolume", function ()
        -- alsa option
-       --awful.util.spawn("amixer set Master 10%+") 
+       awful.util.spawn("amixer set Master 10%+") 
        -- pulseaudio option
-       awful.util.spawn("pactl set-sink-volume 0 +10%") 
+       --awful.util.spawn("pactl set-sink-volume 0 +10%") 
 	end),
     awful.key({ }, "XF86AudioLowerVolume", function ()
        -- alsa option
-       --awful.util.spawn("amixer set Master 10%-") 
+       awful.util.spawn("amixer set Master 10%-") 
        -- pulseaudio option
-       awful.util.spawn("pactl set-sink-volume 0 -10%") 
+       --awful.util.spawn("pactl set-sink-volume 0 -10%") 
 	end),
     awful.key({ }, "XF86AudioMute", function ()
        awful.util.spawn("amixer sset Master toggle") 
@@ -607,6 +607,7 @@ autorunApps =
   "davmail",
   "nextcloud",
   "picom",
+  "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1",
 }
 if autorun then
   for app = 1, #autorunApps do
