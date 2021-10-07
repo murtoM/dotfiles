@@ -603,10 +603,11 @@ end)
 autorun = true
 autorunApps = 
 {
-  "feh --bg-fill /home/markus/Nextcloud/Pictures/change_desktop.png",
+  "autorandr default",
   "davmail",
   "nextcloud",
   "picom",
+  "feh --bg-fill /home/markus/Nextcloud/Pictures/change_desktop.png",
   "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1",
 }
 if autorun then
