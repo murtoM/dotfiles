@@ -1,7 +1,7 @@
 # alias
 alias :q="exit"
 alias ssh="kitty +kitten ssh"
-alias ls="exa --git-ignore"
+alias ls="exa"
 alias bat="batcat -p"
 function spawn
     $argv &; disown
