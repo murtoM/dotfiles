@@ -10,7 +10,6 @@ end
 # env
 set -x VISUAL vim
 set -x QT_QPA_PLATFORMTHEME qt5ct
-set -x LANG en_GB.UTF-8
 set -x MOZ_USE_XINPUT2 1
 
 # disable venv prompt
