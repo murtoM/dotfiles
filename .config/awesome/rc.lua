@@ -43,7 +43,7 @@ end
 -- @DOC_LOAD_THEME@
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(awful.util.get_themes_dir() .. "default/theme.lua")
--- beautiful.useless_gap = 15
+beautiful.useless_gap = 15
 beautiful.border_focus = "#4682b4"
 
 -- @DOC_DEFAULT_APPLICATIONS@
@@ -604,11 +604,11 @@ end)
 autorun = true
 autorunApps = 
 {
+  "feh --bg-fill /home/markus/Nextcloud/Pictures/change_desktop.png",
   "davmail",
   "nextcloud",
   "picom",
   "ksnip",
-  "feh --bg-fill /home/markus/Nextcloud/Pictures/change_desktop.png",
   "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1",
 }
 if autorun then
