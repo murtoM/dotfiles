@@ -1,6 +1,7 @@
 " vundle
 set nocompatible
-filetype off
+filetype on
+filetype indent on
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
@@ -10,6 +11,7 @@ Plugin 'ycm-core/YouCompleteMe'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'vim-scripts/java_getset.vim'
+Plugin 'sbdchd/neoformat'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -55,6 +57,7 @@ let b:javagetset_setterTemplate =
 " two char indentation for java and js
 autocmd FileType java setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
 
 " faster motion with Ctrl+hjkl
 noremap <C-j> 4j
