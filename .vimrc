@@ -12,6 +12,7 @@ Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'vim-scripts/java_getset.vim'
 Plugin 'sbdchd/neoformat'
+Plugin 'prettier/vim-prettier'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
