@@ -14,6 +14,8 @@ Plugin 'vim-scripts/java_getset.vim'
 Plugin 'sbdchd/neoformat'
 Plugin 'prettier/vim-prettier'
 Plugin 'vim-scripts/xmledit'
+Plugin 'othree/yajs.vim'
+Plugin 'othree/es.next.syntax.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
