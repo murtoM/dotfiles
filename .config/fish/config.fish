@@ -1,6 +1,5 @@
 # alias
 alias :q="exit"
-alias ssh="kitty +kitten ssh"
 alias ls="exa"
 alias bat="batcat -p"
 function spawn
