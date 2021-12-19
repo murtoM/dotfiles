@@ -13,6 +13,3 @@
   visibility: collapse !important;
 }
 
-notification[value="drmContentDisabled"] {
-  display: none !important;
-}
