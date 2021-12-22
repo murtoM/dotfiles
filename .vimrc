@@ -73,3 +73,6 @@ noremap <C-l> 4l
 nmap <F2> :set rnu!<CR>
 " toggle line numbers
 nmap <F3> :set nu!<CR>
+
+" tree style file browsing
+let g:netrw_liststyle = 3
