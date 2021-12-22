@@ -16,6 +16,7 @@ Plugin 'prettier/vim-prettier'
 Plugin 'vim-scripts/xmledit'
 Plugin 'othree/yajs.vim'
 Plugin 'othree/es.next.syntax.vim'
+Plugin 'preservim/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -74,5 +75,3 @@ nmap <F2> :set rnu!<CR>
 " toggle line numbers
 nmap <F3> :set nu!<CR>
 
-" tree style file browsing
-let g:netrw_liststyle = 3
