@@ -2,6 +2,7 @@
 alias :q="exit"
 alias ls="exa"
 alias bat="batcat -p"
+alias psgrep="ps aux | head -n1 && ps aux | grep"
 function spawn
     $argv &; disown
 end
