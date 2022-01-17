@@ -66,6 +66,7 @@ let b:javagetset_setterTemplate =
 autocmd FileType java setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType c setlocal shiftwidth=8 tabstop=8 noexpandtab
 
 " faster motion with Ctrl+hjkl
 noremap <C-j> 4j
