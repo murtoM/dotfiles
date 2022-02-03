@@ -79,3 +79,5 @@ nmap <F2> :set rnu!<CR>
 " toggle line numbers
 nmap <F3> :set nu!<CR>
 
+" allow typing out
+let g:AutoPairsShortcutFastWrap = "<C-f>"
