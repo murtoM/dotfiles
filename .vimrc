@@ -68,6 +68,9 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType c setlocal shiftwidth=4 tabstop=4
 
+" ejs as html
+au BufNewFile,BufRead *.ejs set filetype=html
+
 " faster motion with Ctrl+hjkl
 noremap <C-j> 4j
 noremap <C-k> 4k
