@@ -610,6 +610,7 @@ autorunApps =
   "picom",
   "ksnip",
   "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1",
+  "xsuspender",
 }
 if autorun then
   for app = 1, #autorunApps do
