@@ -3,6 +3,7 @@ alias :q="exit"
 alias ls="exa"
 alias bat="batcat -p"
 alias psgrep="ps aux | head -n1 && ps aux | grep"
+alias ssh="kitty +kitten ssh"
 function spawn
     $argv &; disown
 end
@@ -11,6 +12,7 @@ end
 set -x VISUAL vim
 set -x QT_QPA_PLATFORMTHEME qt5ct
 set -x MOZ_USE_XINPUT2 1
+set -x GTK_THEME Arc-Dark
 
 # disable venv prompt
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
