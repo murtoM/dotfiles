@@ -43,7 +43,7 @@ end
 -- @DOC_LOAD_THEME@
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(awful.util.get_themes_dir() .. "default/theme.lua")
-beautiful.useless_gap = 15
+beautiful.useless_gap = 0
 beautiful.border_focus = "#4682b4"
 
 -- @DOC_DEFAULT_APPLICATIONS@
