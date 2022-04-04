@@ -605,7 +605,6 @@ autorun = true
 autorunApps = 
 {
   "feh --bg-fill /home/markus/Nextcloud/Pictures/change_desktop.png",
-  "davmail",
   "nextcloud",
   "picom",
   "ksnip",
