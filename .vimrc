@@ -36,7 +36,7 @@ set number
 set tabstop=4
 set shiftwidth=4
 set expandtab
-"set modeline
+set modeline
 set hlsearch
 set autoindent
 set encoding=utf-8
@@ -44,6 +44,10 @@ set colorcolumn=80,100
 highlight ColorColumn ctermbg=235
 set cursorline
 highlight CursorLine ctermbg=236 cterm=None
+
+" highlight non-ascii characters
+au BufReadPost * syntax match nonascii "[^\u0000-\u007F]" containedin=ALL
+highlight nonascii ctermbg=1
 
 " ycm settings
 let g:ycm_confirm_extra_conf = 1
@@ -66,7 +70,9 @@ let b:javagetset_setterTemplate =
 autocmd FileType java setlocal shiftwidth=2 tabstop=2
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
-autocmd FileType c setlocal shiftwidth=4 tabstop=4
+"autocmd FileType c setlocal shiftwidth=4 tabstop=4
+autocmd FileType c setlocal shiftwidth=8 tabstop=8 noexpandtab
+autocmd FileType h setlocal shiftwidth=8 tabstop=8 noexpandtab
 
 " ejs as html
 au BufNewFile,BufRead *.ejs set filetype=html
@@ -84,3 +90,4 @@ nmap <F3> :set nu!<CR>
 
 " allow typing out
 let g:AutoPairsShortcutFastWrap = "<C-f>"
+
