@@ -42,8 +42,11 @@ set autoindent
 set encoding=utf-8
 set colorcolumn=80,100
 highlight ColorColumn ctermbg=235
-set cursorline
 highlight CursorLine ctermbg=236 cterm=None
+" light theme
+"highlight ColorColumn ctermbg=230
+"highlight CursorLine ctermbg=231 cterm=None
+set cursorline
 
 " highlight non-ascii characters
 au BufReadPost * syntax match nonascii "[^\u0000-\u007F]" containedin=ALL

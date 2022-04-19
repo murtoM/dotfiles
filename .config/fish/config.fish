@@ -12,7 +12,6 @@ end
 set -x VISUAL vim
 set -x QT_QPA_PLATFORMTHEME qt5ct
 set -x MOZ_USE_XINPUT2 1
-set -x GTK_THEME Arc-Dark
 
 # disable venv prompt
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
