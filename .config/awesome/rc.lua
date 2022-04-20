@@ -608,7 +608,7 @@ autorunApps =
   "nextcloud",
   "picom",
   "ksnip",
-  "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1",
+  -- "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1",
   "DISPLAY=:0 xsuspender",
 }
 if autorun then
