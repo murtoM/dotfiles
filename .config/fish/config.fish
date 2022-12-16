@@ -3,7 +3,7 @@ alias :q="exit"
 alias ls="exa"
 alias bat="batcat -p"
 alias psgrep="ps aux | head -n1 && ps aux | grep"
-alias ssh="kitty +kitten ssh"
+#alias ssh="kitty +kitten ssh"
 function spawn
     $argv &; disown
 end
